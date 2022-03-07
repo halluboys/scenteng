@@ -76,7 +76,7 @@ rm -f /root/ssh-vpn1.sh
 #rm -f /root/wg.sh
 #rm -f /root/ss.sh
 #rm -f /root/ssr.sh
-rm -f /root/ins-xray.sh
+rm -f /root/ins-xray1.sh
 #rm -f /root/ipsec.sh
 #rm -f /root/set-br.sh
 rm -f /root/edu.sh
