@@ -37,7 +37,7 @@ akbarvpnnnnnn="raw.githubusercontent.com/halluboys/xxx/main/xray"
 # Link Hosting Kalian Untuk Websocket
 akbarvpnnnnnnnnn="raw.githubusercontent.com/halluboys/xxx/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-akbarvpnnnnnnnnnn="raw.githubusercontent.com/halluboys/xxx/main/ohp"
+#akbarvpnnnnnnnnnn="raw.githubusercontent.com/halluboys/xxx/main/ohp"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
