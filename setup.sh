@@ -107,7 +107,7 @@ echo "" | tee -a log-install.txt
 echo "----------------------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
-echo "   - OpenSSH                 : 443, 22"  | tee -a log-install.txt
+echo "   - OpenSSH                 : 8443, 22"  | tee -a log-install.txt
 echo "   - OpenVPN                 : TCP 1194, UDP 2200, SSL 990"  | tee -a log-install.txt
 echo "   - Stunnel5                : 443, 445, 777"  | tee -a log-install.txt
 echo "   - Dropbear                : 443, 109, 143"  | tee -a log-install.txt
@@ -121,7 +121,7 @@ echo "   - Nginx                   : 89"  | tee -a log-install.txt
 #echo "   - Shadowsocks-R           : 1443-1543"  | tee -a log-install.txt
 #echo "   - SS-OBFS TLS             : 2443-2543"  | tee -a log-install.txt
 #echo "   - SS-OBFS HTTP            : 3443-3543"  | tee -a log-install.txt
-echo "   - XRAYS Vmess TLS         : 8443"  | tee -a log-install.txt
+echo "   - XRAYS Vmess TLS         : 443"  | tee -a log-install.txt
 echo "   - XRAYS Vmess None TLS    : 80"  | tee -a log-install.txt
 echo "   - XRAYS Vless TLS         : 8443"  | tee -a log-install.txt
 echo "   - XRAYS Vless None TLS    : 80"  | tee -a log-install.txt
