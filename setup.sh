@@ -80,7 +80,7 @@ rm -f /root/ins-xray1.sh
 #rm -f /root/ipsec.sh
 #rm -f /root/set-br.sh
 rm -f /root/edu.sh
-#rm -f /root/ohp.sh
+rm -f /root/ohp.sh
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
 Description=autosetting
