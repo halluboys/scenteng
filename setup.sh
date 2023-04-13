@@ -37,7 +37,7 @@ akbarvpnnnnnn="raw.githubusercontent.com/halluboys/xxx/main/xray"
 # Link Hosting Kalian Untuk Websocket
 akbarvpnnnnnnnnn="raw.githubusercontent.com/halluboys/xxx/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-#akbarvpnnnnnnnnnn="raw.githubusercontent.com/halluboys/xxx/main/ohp"
+akbarvpnnnnnnnnnn="raw.githubusercontent.com/halluboys/xxx/main/ohp"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
@@ -69,7 +69,7 @@ wget https://${akbarvpn}/ssh-vpn1.sh && chmod +x ssh-vpn1.sh && screen -S ssh-vp
 # Websocket
 wget https://${akbarvpnnnnnnnnn}/edu.sh && chmod +x edu.sh && ./edu.sh
 # Ohp Server
-#wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 
 rm -f /root/ssh-vpn1.sh
 #rm -f /root/sstp.sh
