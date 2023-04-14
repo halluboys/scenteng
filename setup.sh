@@ -35,9 +35,9 @@ akbarvpnnnnnn="raw.githubusercontent.com/halluboys/xxx/main/xray"
 # Link Hosting Kalian Untuk Backup
 #akbarvpnnnnnnnn="raw.githubusercontent.com/halluboys/scenteng/main/backup"
 # Link Hosting Kalian Untuk Websocket
-#akbarvpnnnnnnnnn="raw.githubusercontent.com/halluboys/xxx/main/websocket"
+akbarvpnnnnnnnnn="raw.githubusercontent.com/halluboys/xxx/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-#akbarvpnnnnnnnnnn="raw.githubusercontent.com/halluboys/xxx/main/ohp"
+akbarvpnnnnnnnnnn="raw.githubusercontent.com/halluboys/xxx/main/ohp"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
@@ -67,9 +67,9 @@ wget https://${akbarvpn}/ssh-vpn1.sh && chmod +x ssh-vpn1.sh && screen -S ssh-vp
 #wget https://${akbarvpnnnnnnn}/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 #wget https://${akbarvpnnnnnnnn}/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 # Websocket
-#wget https://${akbarvpnnnnnnnnn}/edu.sh && chmod +x edu.sh && ./edu.sh
+wget https://${akbarvpnnnnnnnnn}/edu.sh && chmod +x edu.sh && ./edu.sh
 # Ohp Server
-#wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 
 rm -f /root/ins.sh
 #rm -f /root/sstp.sh
@@ -79,8 +79,8 @@ rm -f /root/ins.sh
 rm -f /root/ins-xray1.sh
 #rm -f /root/ipsec.sh
 #rm -f /root/set-br.sh
-#m -f /root/edu.sh
-#rm -f /root/ohp.sh
+rm -f /root/edu.sh
+rm -f /root/ohp.sh
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
 Description=autosetting
@@ -108,12 +108,12 @@ echo "--------------------------------------------------------------------------
 echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - Nginx                   : 89"  | tee -a log-install.txt
-echo "   - XRAYS Vmess TLS         : 8443"  | tee -a log-install.txt
+echo "   - XRAYS Vmess TLS         : 443"  | tee -a log-install.txt
 echo "   - XRAYS Vmess None TLS    : 80"  | tee -a log-install.txt
-echo "   - XRAYS Vless TLS         : 8443"  | tee -a log-install.txt
+echo "   - XRAYS Vless TLS         : 443"  | tee -a log-install.txt
 echo "   - XRAYS Vless None TLS    : 80"  | tee -a log-install.txt
 echo "   - XRAYS Trojan            : 2083"  | tee -a log-install.txt
-echo "   - Websocket TLS           : 443"  | tee -a log-install.txt
+echo "   - Websocket TLS           : 8443"  | tee -a log-install.txt
 echo "   - Websocket None TLS      : 8880"  | tee -a log-install.txt
 echo "   - Websocket Ovpn          : 2086"  | tee -a log-install.txt
 echo "   - TrojanGo                : 2087"  | tee -a log-install.txt
