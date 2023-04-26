@@ -69,7 +69,7 @@ wget https://${akbarvpn}/ssh-vpn1.sh && chmod +x ssh-vpn1.sh && screen -S ssh-vp
 # Websocket
 #wget https://${akbarvpnnnnnnnnn}/edu.sh && chmod +x edu.sh && ./edu.sh
 # Ohp Server
-wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+#wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 
 rm -f /root/ins.sh
 #rm -f /root/sstp.sh
@@ -79,8 +79,8 @@ rm -f /root/ins.sh
 rm -f /root/ins-xray1.sh
 #rm -f /root/ipsec.sh
 #rm -f /root/set-br.sh
-rm -f /root/edu.sh
-rm -f /root/ohp.sh
+#rm -f /root/edu.sh
+#rm -f /root/ohp.sh
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
 Description=autosetting
